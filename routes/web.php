@@ -45,3 +45,4 @@ Route::get('/about',[HomeController::class,'about']);
 
 Route::get('/Contact',[HomeController::class,'Contact']);
 
+Route::any('/profile',[HomeController::class,'profile']);

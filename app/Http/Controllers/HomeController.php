@@ -86,5 +86,9 @@ class HomeController extends Controller
        return view ('user.about');
     }
 
+    public function profile()
+    {
+       return view ('user.profile');
+    }
 
 }

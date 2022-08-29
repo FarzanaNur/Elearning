@@ -26,7 +26,7 @@
   <x-guest-layout>
 
 <div>
-  <form method="POST" action="{{ url('/') }}" enctype="multipart/form-data">
+  <form method="POST" action="{{url('profile') }}" enctype="multipart/form-data">
             @csrf
 
             <div>
